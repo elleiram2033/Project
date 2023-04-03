@@ -4,7 +4,7 @@ let collectionNFT = [];
 function mintNFT(_gender, _age, _color, _breeds) {
   const duck = {
     gender: _gender,
-    age: age,
+    age: _age,
     color: _color,
     breeds: _breeds,
   }
@@ -22,12 +22,12 @@ function getTotalSupply () {
   console.log("TOTAL NFT: " + collectionNFT.length);
 }
 
-mintNFT("BROWN", 4, "MALE",15);
-mintNFT("WHITE", 4, "MALE",8);
-mintNFT("BLACK", 4, "MALE",5);
-mintNFT("BLUE", 4, "MALE",11);
-mintNFT("PINK", 4, "MALE",2);
-mintNFT("RED", 4, "MALE",10);
+mintNFT("BROWN", 9, "MALE",15);
+mintNFT("WHITE", 7, "MALE",8);
+mintNFT("BLACK", 7, "MALE",5);
+mintNFT("BLUE", 8, "MALE",11);
+mintNFT("PINK", 7, "MALE",2);
+mintNFT("RED", 8, "MALE",10);
 
 listNFTs();
 getTotalSupply();
